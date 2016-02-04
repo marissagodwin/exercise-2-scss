@@ -1,0 +1,49 @@
+html {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.border, ul {
+  border: 1px solid #ccc;
+}
+
+.border p, ul p {
+  color: #4F94CD;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.primary-btn {
+  margin: 1em;
+  padding: 1em 1em;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  background: #4F94CD;
+}
+
+.form {
+  max-width: 45em;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.smallprint {
+  color: #aaaaaa;
+  text-align: center;
+}
+
+.field {
+  border: 1px solid #ccc;
+  font-size: 1.5em;
+  padding: 0.2em 0.5em;
+  width: 100%;
+}

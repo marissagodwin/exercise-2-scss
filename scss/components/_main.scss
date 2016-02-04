@@ -1,0 +1,50 @@
+
+html {
+  font-family: $helvetica;
+}
+
+.border {
+    border: 1px solid #ccc;
+      p {
+        color: $blue;
+      }
+}
+
+ul {
+  @extend .border;
+}
+
+a {
+  text-decoration: none;
+    &:hover {
+    text-decoration: underline;
+  }
+}
+
+.primary-btn {
+  @include button ( #4F94CD);
+}
+
+.form {
+    max-width: 45em;
+    margin: 0 auto;
+}
+
+.center{
+    text-align: center;
+}
+   
+.smallprint {
+    color: $grey;
+    text-align: center;
+}
+
+.field { 
+    border: 1px solid #ccc;
+    font-size: 1.5em;
+    padding: 0.2em 0.5em;
+    width: 100%;
+}
+
+
+    
